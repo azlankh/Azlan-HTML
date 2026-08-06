@@ -1,0 +1,42 @@
+body{
+    background-color: #00eeff;
+    background-image: linear-gradient(to bottom, #00eeff 0%, #00aaff42);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.page header{
+    background-image: linear-gradient(to right, #00ff6e 0%, #00ffa242);
+    border-radius: 12px;
+    text-align: center;
+    color: #f2f0f0;
+}
+
+.FactCard{
+    background-color: #1050ffe2;
+    border-radius: 12px;
+    color: #f2f0f0;
+}
+
+.star{
+    width: 60px;
+    height: 60px;
+    background-color: #ffff00;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+    from {
+        background-color: #ffff00;
+    }
+    to {
+        background-color: #ffffb8;
+    }
+}
+
+.footer text{
+    text-align: center;
+    color: #0131f0;
+}

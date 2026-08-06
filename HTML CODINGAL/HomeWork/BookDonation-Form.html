@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form
+    </title>
+</head>
+
+<body>
+    <center>
+        <h1>Book Donation Form</h1>
+        <hr>
+        <form>
+            <fieldset>
+                <legend><h1>Doner Details</h1></legend>
+                <label>Your Name: </label>
+                <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+                <label>Your Phone Number: </label>
+                <input type="text" id="number" placeholder="Enter Phone Number"><br><br>
+                <label>Your Email: </label>
+                <input type="email" id="email" placeholder="Enter Email"><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><h1>Book Details</h1></legend>
+                <label><b>Number of Books: </b></label><br>
+                <input type="number" id="book" placeholder="Enter Number of Books"><br><br>
+                <p>      </p>
+                <label><b>Book Type: </b></label><br>
+                <input type="checkbox" id="fiction" value="fiction"> Fiction<br>
+                <input type="checkbox" id="nonfiction" value="nonfiction"> Non-Fiction<br>
+                <input type="checkbox" id="comics" value="comics"> Comics<br>
+                <input type="checkbox" id="textbooks" value="textbooks"> Textbooks<br>
+                <p>     </p>
+                <label>New Or Old: </label><br>
+                <input type="radio" name="condition" value="new"> <b>New</b><br>
+                <input type="radio" name="condition" value="old"> <b>Old</b><br><br>   
+        </fieldset>
+        <br>
+    </center>
+            <fieldset>
+                 <legend><h1>Book List</h1></legend>
+                 <label><h2>Book Names <small>And</small> Authors: </h2></label>
+                 <p><i>You can resize the text box to see more Books in your screen...</i></P>
+                 <textarea id="notes" rows="15" cols="15" placeholder="Title and Author"></textarea><br><br>
+            </fieldset>
+        <br>
+        <center>
+            <fieldset>
+                <legend><h1>Preferred Day Drop</h1></legend>
+                <p>Please select your preferred day and time to drop off the books.</p>
+                <input type="radio" id="monday" value="monday"><b>Monday</b><br>
+                <input type="radio" id="wednesday" value="wednesday"><b>Wednesday</b><br>
+                <input type="radio" id="friday" value="friday"><b>Friday</b><br>
+                <input type="radio" id="sunday" value="sunday"><b>Sunday</b><br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Book My Donation">
+
+    </form>
+    </center>
+</body>
+</html>
